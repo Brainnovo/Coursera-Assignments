@@ -1,2 +1,2 @@
 # Coursera-Assignments
-Published assignments for peer review
+Published assignments for peer review.
