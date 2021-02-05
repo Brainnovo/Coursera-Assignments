@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+
+section {
+    position: relative;
+    background-color: grey;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.section-title {
+    position: absolute;
+    background-color: #E9B9C5;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 0px;
+    width: 130px;
+    top: -1px;
+    /*1px which is the size of the section border*/
+    right: -1px;
+    /*1px which is the size of the section border*/
+}
+
+#st2 {
+    background-color: #D04E4E;
+    color: white;
+}
+
+#st3 {
+    background-color: #E9E693;
+}
+
+.section-content {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: 16px;
+}
+
+@media (min-width: 992px) {
+
+    section {
+        width: 30.33%;
+        float: left;
+    }
+    
+    #s1{
+        margin-right: 3%;
+    }
+
+    #s2{
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+    }
+
+    #s3{
+        margin-left: 3%;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    section {
+        width: 47%;
+        float: left;
+    }
+
+    #s1{
+        margin-right: 3%;
+    }
+
+    #s2{
+        margin-left: 3%;
+    }
+
+    #s3 {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    section {
+        margin-bottom: 20px;
+    }
+
+}
